@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "G6Test.Controllers.TestController",
+    "Method": "DownloadTemplate",
+    "RelativePath": "api/Test/DownloadTemplate/DownloadTemplate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G6Test.Controllers.TestController",
+    "Method": "ExportToExcel",
+    "RelativePath": "api/Test/ExportToExcel/ExportToExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataList",
+        "Type": "System.Collections.Generic.List\u00601[[G6Test.MyData, G6Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G6Test.Controllers.TestController",
+    "Method": "ImportFromExcel",
+    "RelativePath": "api/Test/ImportFromExcel/ImportFromExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G6Test.Controllers.TestController",
+    "Method": "UploadTemplate",
+    "RelativePath": "api/Test/UploadTemplate/UploadTemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "templateFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G6Test.Controllers.TestController",
+    "Method": "ValidateAndReadDynamicExcel",
+    "RelativePath": "api/Test/ValidateAndReadDynamicExcel/ValidateAndReadDynamicExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

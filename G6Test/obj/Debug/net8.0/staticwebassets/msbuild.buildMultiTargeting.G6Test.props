@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\G6Test.props" />
+</Project>
